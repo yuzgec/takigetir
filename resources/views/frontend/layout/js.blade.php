@@ -38,21 +38,8 @@
 <script src="/frontend/assets/js/components/hs.quantity-counter.js"></script>
 
 <livewire:scripts />
-
 <script>
-    $(window).on('load', function () {
-        // initialization of HSMegaMenu component
-        $('.js-mega-menu').HSMegaMenu({
-            event: 'hover',
-            direction: 'horizontal',
-            pageContainer: $('.container'),
-            breakpoint: 767.98,
-            hideTimeOut: 0
-        });
 
-        // initialization of svg injector module
-        $.HSCore.components.HSSVGIngector.init('.js-svg-injector');
-    });
 
     $(document).on('ready', function () {
         // initialization of header
