@@ -31,7 +31,7 @@
                     <div class="col-auto">
                         <nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between">
                             <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{{ route('home') }}" aria-label="{{ config('app.name') }}">
-                                <img src="/frontend/assets/img/logo1.png" alt="{{ config('app.name') }}" class="img-fluid" style="width: 150px">
+                                <img src="/frontend/assets/img/logo1.png" alt="{{ config('app.name') }}" class="img-fluid" style="width: 100px">
                             </a>
                             <button id="sidebarHeaderInvokerMenu"
                                     type="button"
