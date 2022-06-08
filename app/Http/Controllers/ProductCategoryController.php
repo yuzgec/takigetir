@@ -87,8 +87,8 @@ class ProductCategoryController extends Controller
         $Update->save();
 
         if ($request->hasFile('image')) {
-            $Update->media()->delete();
-            $Update->addMedia($request->image)->toMediaCollection();
+            $Update->media()->where('collection_name', 'page')->delete();
+            $Update->addMedia($request->image)->toMediaCollection('page');
         }
 
         if ($request->parent){

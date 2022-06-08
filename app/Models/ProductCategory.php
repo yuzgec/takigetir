@@ -29,4 +29,15 @@ class ProductCategory extends Model implements HasMedia
         return $this->hasMany('App\Models\ProductCategoryPivot', 'category_id');
     }
 
+    public function registerMediaConversions(Media $media = null): void
+    {
+        $this->addMediaConversion('thumb')
+            ->width(400)
+            ->nonOptimized();
+
+        $this->addMediaConversion('small')
+            ->width(150)
+            ->nonOptimized();
+    }
+
 }
