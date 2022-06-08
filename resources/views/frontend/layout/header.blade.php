@@ -161,7 +161,7 @@
                                 @foreach($Product_Categories as $item)
                                     <li class="nav-item hs-has-mega-menu u-header__nav-item d-flex">
                                         <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}">
-                                            <img class="img-fluid" src="{{ $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
+                                            {{ $item->short }}
                                             {{ $item->title }}
                                         </a>
                                     </li>
