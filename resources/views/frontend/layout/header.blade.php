@@ -159,8 +159,11 @@
                                     </a>
                                 </li>
                                 @foreach($Product_Categories as $item)
-                                    <li class="nav-item hs-has-mega-menu u-header__nav-item">
-                                        <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}" >{{ $item->title }}</a>
+                                    <li class="nav-item hs-has-mega-menu u-header__nav-item d-flex">
+                                        <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}">
+                                            <img class="img-fluid" src="{{ $item->getFirstMediaUrl('page', 'thumb')}}" alt="{{ $item->title }}">
+                                            {{ $item->title }}
+                                        </a>
                                     </li>
                                 @endforeach
 
