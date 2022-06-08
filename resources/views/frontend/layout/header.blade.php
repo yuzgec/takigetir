@@ -149,9 +149,9 @@
         <div class="d-none d-xl-block bg-primary ">
             <div class="container">
                 <div class="min-height-37 ">
-                    <nav class=" navbar navbar-expand-md u-header__navbar u-header__navbar--wide u-header__navbar--no-space ">
+                    <nav class=" navbar navbar-expand-md u-header__navbar u-header__navbar--wide u-header__navbar--no-space">
                         <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
-                            <ul class="navbar-nav u-header__navbar-nav">
+                            <ul class="navbar-nav u-header__navbar-nav  justify-content-center">
                                 <li class="nav-item  u-header__nav-item ml-4">
                                     <a class="nav-link u-header__nav-link u-header__nav-link-toggle"
                                        href="{{ route('home')}}"
@@ -161,9 +161,9 @@
                                 @foreach($Product_Categories as $item)
                                     <li class="nav-item hs-has-mega-menu u-header__nav-item ">
                                         <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}">
-                                            <div  class="d-flex align-items-center justify-content-center">
-                                                <div>{!! $item->short !!} </div>
-                                                <div>{{ $item->title }}</div>
+                                            <div  class=" justify-content-center">
+
+                                                {{ $item->title }}
                                             </div>
                                         </a>
                                     </li>
