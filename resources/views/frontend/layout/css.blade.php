@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="/frontend/assets/vendor/fancybox/jquery.fancybox.css">
 <link rel="stylesheet" href="/frontend/assets/vendor/slick-carousel/slick/slick.css">
 <link rel="stylesheet" href="/frontend/assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css">
-<link rel="stylesheet" href="/frontend/assets/css/theme.css?ver=2">
+<link rel="stylesheet" href="/frontend/assets/css/theme.css?ver=3">
 <meta name="facebook-domain-verification" content="1kxs51dgxm38z7wbh9pdswx6vejieh" />
 <livewire:styles />
 
