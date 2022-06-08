@@ -34,8 +34,5 @@
             </div>
         </div>
     </div>
-
-    @include('backend.layout.widget.homemenu')
-
 @endsection
 

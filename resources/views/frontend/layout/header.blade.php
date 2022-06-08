@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="d-flex align-items-center">
                     <div class="topbar-left">
-                        <a class="text-gray-110 font-size-14 u-header-topbar__nav-link"><b>Kıblegah Aile Oyunları</b> Online Satış Sitesi</a>
+                        <a class="text-gray-110 font-size-14 u-header-topbar__nav-link"><b>Takı Getir</b> Online Satış Sitesi</a>
                     </div>
                     <div class="topbar-right ml-auto">
                         <ul class="list-inline mb-0">
@@ -164,7 +164,7 @@
                                     </li>
                                 @endforeach
 
-                                <li class="nav-item hs-has-mega-menu u-header__nav-item bg-secondary">
+                                <li class="nav-item hs-has-mega-menu u-header__nav-item" style="background: #000">
                                     <a class="nav-link u-header__nav-link text-white" href="{{ route('kargosorgulama') }}" >
                                         <i class="text-black ec ec-transport font-size-30 text-white" ></i> Kargo Sorgulama</a>
                                 </li>

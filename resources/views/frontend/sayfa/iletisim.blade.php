@@ -94,7 +94,7 @@
                     </ul>
                     <h5 class="font-size-14 font-weight-bold mb-3">Toptan Satış</h5>
                     <p class="text-gray-90">Tanıtım Kampanyası oyunlarını toptan almak için lütfen bizimle iletişime geçiniz:
-                        <a class="text-blue text-decoration-on" href="mailto:contact@yourstore.com">info@tanitimkampanyasi.com</a>
+                        <a class="text-blue text-decoration-on" href="mailto:contact@yourstore.com">info@takigetir.com</a>
                     </p>
                 </div>
             </div>
