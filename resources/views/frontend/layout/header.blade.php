@@ -25,7 +25,7 @@
                 </div>
             </div>
         </div>
-        <div class="py-2 py-xl-3 bg-primary-down-lg">
+        <div class="py-2 py-xl-3">
             <div class="container my-0dot5 my-xl-0">
                 <div class="row align-items-center">
                     <div class="col-auto">
@@ -159,10 +159,12 @@
                                     </a>
                                 </li>
                                 @foreach($Product_Categories as $item)
-                                    <li class="nav-item hs-has-mega-menu u-header__nav-item d-flex">
+                                    <li class="nav-item hs-has-mega-menu u-header__nav-item ">
                                         <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}">
-                                            {!! $item->short !!}
-                                            {{ $item->title }}
+                                            <div  class="d-flex align-items-center justify-content-center">
+                                                <div>{!! $item->short !!} </div>
+                                                <div>{{ $item->title }}</div>
+                                            </div>
                                         </a>
                                     </li>
                                 @endforeach
