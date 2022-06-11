@@ -1,5 +1,5 @@
 @extends('frontend.layout.app')
-@section('title', 'Siparişi Tamamla |  Kıblegah Aile Oyunları Online Satış Sitesi')
+@section('title', 'Siparişi Tamamla | '.config('app.name'))
 @section('content')
 
     <div class="bg-gray-13 bg-md-transparent">
