@@ -203,7 +203,7 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="row list-unstyled products-group no-gutters">
-                            @foreach($Productssss as $item)
+                            @foreach($Product as $item)
                                 <li class="col-6 col-md-3 product-item p-1">
                                     <div class="js-slide products-group">
                                         <div class="product-item__outer h-100">
