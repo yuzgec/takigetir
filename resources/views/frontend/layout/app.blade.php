@@ -6,7 +6,7 @@
         {!! Twitter::generate() !!}
         @include('frontend.layout.css')
         @yield('customCSS')
-
+        <meta name="facebook-domain-verification" content="044gbsiu1s9t27pj9ien80wrr2rpyd" />
     </head>
     <body>
         @include('frontend.layout.header')
