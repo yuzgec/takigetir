@@ -162,7 +162,6 @@
                                     <li class="nav-item hs-has-mega-menu u-header__nav-item ">
                                         <a class="nav-link u-header__nav-link u-header__nav-link-toggle" href="{{ route('kategori', $item->slug) }}">
                                             <div  class=" justify-content-center">
-
                                                 {{ $item->title }}
                                             </div>
                                         </a>

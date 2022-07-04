@@ -113,21 +113,12 @@ class HomeController extends Controller
 
         $p = Product::find($request->id);
 
-        Basket::create(['product_id' => $p->id, 'basket_name' => 'Sepet']);
+        if ($request->kampanya == 1){
+            Cart::destroy();
+        }
 
-        Cart::add(
-            [
-                'id' => $p->id,
-                'name' => $p->title,
-                'price' => $p->price,
-                'weight' => 0,
-                'qty' => 1,
-                'options' => [
-                    'image' => (!$p->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg' : $p->getFirstMediaUrl('page', 'small'),
-                    'cargo' => 0,
-                    'campagin' => $p->campagin,
-                ]
-            ]);
+        //Basket::create(['product_id' => $p->id, 'basket_name' => 'Sepet']);
+
 
         $Cart_Id = time();
         DB::transaction(function () use ($request, $Cart_Id) {
