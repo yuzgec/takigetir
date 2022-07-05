@@ -196,7 +196,7 @@
                                                      aria-labelledby="basicsHeadingOne"
                                                      data-parent="#basicsAccordion1">
                                                     <div class="p-4">
-                                                        Siparişinizi ödemesini kapıda nakit olarak kolayca ve güvenli bir şekilde yapabilirsiniz.
+                                                        Siparişinizin ödemesini kapıda nakit olarak kolayca ve güvenli bir şekilde yapabilirsiniz.
                                                     </div>
                                                 </div>
                                             </div>
