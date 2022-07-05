@@ -118,8 +118,6 @@ class HomeController extends Controller
         }
 
         //Basket::create(['product_id' => $p->id, 'basket_name' => 'Sepet']);
-
-
         $Cart_Id = time();
         DB::transaction(function () use ($request, $Cart_Id) {
             $ShopCart                   = new ShopCart;

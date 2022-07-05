@@ -134,10 +134,11 @@
                                     <input type="hidden" name="qty" value="1">
                                     <div class="mb-3">
                                         <button type="submit" class="btn btn-block btn-secondary">
-                                            <i class="fas fa-shopping-basket"></i> Hızlı Satın Al
+                                            <i class="fas fa-shopping-basket"></i> {{ money($Detay->price) > 0 ? 'Hızlı Satın Al' : 'Kampanyaya KATIL' }}
                                         </button>
                                     </div>
                                 </form>
+                                @if(money($Detay->price) > 0)
                                 <form action="{{ route('sepeteekle') }}" method="POST">
                                     @csrf
                                     <div class="mb-3">
@@ -165,7 +166,7 @@
                                         </button>
                                     </div>
                                 </form>
-
+                                @endif
                                 <div class="mb-3">
                                     <a href="https://api.whatsapp.com/send?phone=905523020000&text=Merhaba sipariş vermek istiyorum. {{ $Detay->title }} {{ route('urun', $Detay->slug) }}" class="btn btn-block btn-green" target="_blank">
                                         <i class="fab fa-whatsapp"></i> Whatsapp Sipariş</a>

@@ -295,7 +295,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td align="center" valign="top" style="font-family:'Open Sans', sans-serif, Verdana; font-size:12px; color:#4b4b4c; line-height:30px; font-weight:bold; text-decoration:underline;" mc:edit="tm5-32">
-                                                        <a href="https://www.tanitimkampanyasi.com" style="text-decoration:none; color:#4b4b4c;">tanitimkampanyasi.com</a>
+                                                        <a href="https://www.takigetir.com" style="text-decoration:none; color:#4b4b4c;">takigetir.com</a>
                                                     </td>
                                                 </tr>
                                                 <tr>

@@ -5,7 +5,7 @@ use Gloudemans\Shoppingcart\Facades\Cart;
     define('SWEETALERT_MESSAGE_CREATE', 'Eklendi');
     define('SWEETALERT_MESSAGE_UPDATE', 'Güncellendi');
     define('SWEETALERT_MESSAGE_DELETE', 'Silindi');
-    define('CARGO_LIMIT', 69.90);
+    define('CARGO_LIMIT', 100);
     define('CARGO_PRICE', 29.90);
     define('MAIL_SEND', 'siparis@kiblegahaileoyunlari.com.tr');
 
