@@ -64,7 +64,7 @@
                         <ul class="list-inline mb-0 opacity-7">
 
                             <li class="list-inline-item mr-0">
-                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" target="_blank"  href="https://www.facebook.com/tanitimkampanyasi">
+                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" target="_blank"  href="https://www.facebook.com/getirtaki">
                                     <span class="fab fa-facebook-f btn-icon__inner"></span>
                                 </a>
                             </li>
@@ -75,7 +75,7 @@
                                 </a>
                             </li>--}}
                             <li class="list-inline-item mr-0">
-                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" target="_blank" href="https://www.instagram.com/tanitimkampanyasi">
+                                <a class="btn font-size-20 btn-icon btn-soft-dark btn-bg-transparent rounded-circle" target="_blank" href="https://www.instagram.com/taki.getir/">
                                     <span class="fab fa-instagram btn-icon__inner"></span>
                                 </a>
                             </li>
