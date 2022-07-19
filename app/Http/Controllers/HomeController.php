@@ -152,7 +152,7 @@ class HomeController extends Controller
 
             $details = [];
             foreach (Cart::content() as $c) {
-                $details[] = 'Ürün : '.$c->name.' x '. $c->qty;
+                $details[] = 'Ürün : '.$c->name.' x '. $c->qty.' = '.$c->price;
             }
 
             //dd($details);
