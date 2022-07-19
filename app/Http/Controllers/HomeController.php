@@ -115,6 +115,20 @@ class HomeController extends Controller
 
         if ($request->kampanya == 1){
             Cart::destroy();
+
+            Cart::add(
+            [
+                'id' => $p->id,
+                'name' => $p->title,
+                'price' => $p->price,
+                'weight' => 0,
+                'qty' => 1,
+                'options' => [
+                    'image' => (!$p->getFirstMediaUrl('page')) ? '/backend/resimyok.jpg' : $p->getFirstMediaUrl('page', 'small'),
+                    'cargo' => 0,
+                    'campagin' => 0,
+                ]
+            ]);
         }
 
         //Basket::create(['product_id' => $p->id, 'basket_name' => 'Sepet']);
