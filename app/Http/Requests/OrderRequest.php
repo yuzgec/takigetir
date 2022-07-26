@@ -12,7 +12,7 @@ class OrderRequest extends FormRequest
         return [
             'name'                 => 'required|min:3|max:30|regex:/^[a-zA-ZşŞıİçÇöÖüÜĞğ]+$/',
             'surname'              => 'required|min:2|max:30|regex:/^[a-zA-ZşŞıİçÇöÖüÜĞğ]+$/',
-            'phone'                => 'required|numeric|digits:10',
+            'phone'                => 'required|numeric|digits_between:10,11',
             'address'              => 'required|min:25',
             'email'                => 'nullable|email',
             'province'             => 'required',
@@ -35,7 +35,7 @@ class OrderRequest extends FormRequest
 
             'phone.required'           => 'Telefon alanı boş bırakılamaz',
             'phone.numeric'            => 'Telefon sadece rakamlardan oluşabilir',
-            'phone.digits'             => 'Telefon numaranız en az 10 karakter olabilir',
+            'phone.digits_between'     => 'Geçerli bir telefon numarası giriniz',
 
             'address.required'         => 'Adres alanı boş bırakılamaz',
             'address.min'              => 'Adres en az 25 karakterden oluşmalıdır',
